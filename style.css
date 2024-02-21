@@ -1,0 +1,130 @@
+@font-face {
+    font-family: bebas;
+    src: url(BebasNeue-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    background-image: url(netflix\ bg.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: repeat-y;
+}
+
+.icon{
+    position: absolute;
+}
+
+.container{
+    height: 25rem;
+    width: 20rem;
+    backdrop-filter: blur(7px) saturate(180%);
+    -webkit-backdrop-filter: blur(7px) saturate(180%);
+    background-color: #17130bd9;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 3rem;
+}
+
+.sign{
+    font-family: poppins;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+.name{
+    padding: 10px;
+    backdrop-filter: blur(7px) saturate(180%);
+    -webkit-backdrop-filter: blur(7px) saturate(180%);
+    background-color: rgba(25, 25, 25, 0.708);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    width: 17rem;
+    height: 2rem;
+    color: white;
+}
+
+::placeholder{
+    color: rgb(205, 204, 204);
+    font-size: 13px;
+    font-family: poppins;
+}
+
+form{
+    height: 15rem;
+    padding-top: 20px;
+}
+
+.pass{
+    padding: 10px; 
+    backdrop-filter: blur(7px) saturate(180%);
+    -webkit-backdrop-filter: blur(7px) saturate(180%);
+    background-color: rgba(25, 25, 25, 0.708);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    width: 17rem;
+    height: 2rem;
+    margin-top: 20px;
+    color: white;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; 
+    background-color: #C11119;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    width: 18.2rem;
+    height: 2.5rem;
+    margin-top: 20px;
+    color: white;
+    font-family: poppins;
+}
+.remember{
+    font-family: poppins;
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+    padding-left: 6px;
+}
+.re{
+   align-items: center;
+   display: flex;
+   margin-top: 4px;
+}
+#remember{
+    height: 15px;
+    width: 15px;
+}
+
+.forget{
+    margin-top: 2px;
+    padding-left: 5px;
+    color: white;
+    font-family: poppins;
+    font-size: small;
+}
+a{
+    text-decoration: none;
+}
+.out{
+    color: white;
+    font-size: 11px;
+    font-family: poppins;
+    font-weight: lighter;
+}
+
+.learn{
+    color:white;
+    text-decoration: underline;
+}
